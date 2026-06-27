@@ -1,8 +1,7 @@
-import { buatSupabaseServer } from "@/lib/supabase-server";
-import KotakKategori from "@/components/KotakKategori";
-import KotakCari from "@/components/KotakCari";
-import TombolTambahMengambang from "@/components/TombolTambahMengambang";
-
+import { buatSupabaseServer } from "@/lib/supabase-server.js";
+import KotakKategori from "@/components/KotakKategori.jsx";
+import KotakCari from "@/components/KotakCari.jsx";
+import TombolTambahMengambang from "@/components/TombolTambahMengambang.jsx";
 const DAFTAR_KATEGORI = [
   { id: "surat", nama: "Surat-surat", ikon: "📄", warna: "biru" },
   { id: "sertifikat", nama: "Sertifikat", ikon: "🎓", warna: "teal" },

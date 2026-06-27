@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { buatSupabaseServer } from "@/lib/supabase-server";
+import { buatSupabaseServer } from "@/lib/supabase-server.js";
 import AksiDokumen from "@/components/AksiDokumen";
 
 export default async function HalamanDetailDokumen({ params }) {

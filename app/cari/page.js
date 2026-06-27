@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { buatSupabaseServer } from "@/lib/supabase-server";
-import KartuDokumen from "@/components/KartuDokumen";
-import KotakCari from "@/components/KotakCari";
+import { buatSupabaseServer } from "@/lib/supabase-server.js";
+import KartuDokumen from "@/components/KartuDokumen.jsx";
+import KotakCari from "@/components/KotakCari.jsx";
 
 export default async function HalamanCari({ searchParams }) {
   const supabase = buatSupabaseServer();
