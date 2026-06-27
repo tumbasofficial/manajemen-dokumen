@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #faf6f0;
+  color: #2a2018;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Semua tombol minimal setinggi 52px supaya mudah ditekan jari,
+   terutama untuk pengguna lanjut usia. */
+button,
+a.tombol {
+  min-height: 52px;
+}
+
+/* Fokus keyboard tetap kelihatan jelas (aksesibilitas) */
+:focus-visible {
+  outline: 3px solid #3866a0;
+  outline-offset: 2px;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
