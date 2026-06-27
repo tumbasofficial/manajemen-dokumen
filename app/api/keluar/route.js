@@ -1,4 +1,4 @@
-import { buatSupabaseServer } from "@/lib/supabase-server.js";
+import { buatSupabaseServer } from "@/lib/supabase-server";
 import { NextResponse } from "next/server";
 
 export async function POST(request) {
